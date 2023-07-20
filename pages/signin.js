@@ -190,7 +190,7 @@ const handleGoogle=()=>{
                  </button>
               </div>
 
-              <h1 className=' text-center text-black/50'>OR</h1>
+              <h1 className=' text-center text-black/50'>OR </h1>
 
               <form onSubmit={handleSubmit} className=' mt-[3em] gap-8 flex flex-col'>
                 <div className=' flex flex-col'>
