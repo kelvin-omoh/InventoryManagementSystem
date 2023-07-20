@@ -220,7 +220,7 @@ const handleGoogle=()=>{
                 </div>
                  <button  className=' text-white bg-[#010D82] px-8 py-5  w-full rounded-lg'>SIGN IN</button>
                  <p>Are you an Employee  ?     <Link className=' text-blue-500' href="/employee">Click here</Link>  </p>
-                 <p>Already have an account?  <Link className=' text-blue-500' href="/signup">SignUp </Link>  </p>
+                 <p>Already have an account?  <Link className=' text-blue-500' href="/signup">SignUp as Administrator </Link>  </p>
               </form>
              
             </div>

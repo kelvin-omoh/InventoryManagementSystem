@@ -140,9 +140,9 @@ const filteredProducts = products.filter((product) =>
        console.log(p.day);
        if(expiredCount>0){
          console.log(expiredCount);
-         console.log(111111111111111111);
+        //  console.log(111111111111111111);
         //TO GET THE EXPIRATION DATE AND THE PRODUCT THAT EXPIRED
-        //  sendSMS(p.day,p.productName)
+        sendSMS(p.day,p.productName,'(Your Product has expired) '," has expired on the ")
          console.log(p.day,p.productName);
        }
       
@@ -184,9 +184,9 @@ const filteredProducts = products.filter((product) =>
          console.log(expiredCount);
          console.log(111111111111111111);
         //TO GET THE EXPIRATION DATE AND THE PRODUCT THAT EXPIRED
-        // setTimeout(() => {
+        setTimeout(() => {
             sendSMS(p.day,p.productName,'(Your Product has expired) '," has expired on the ")
-        // }, 50000);
+        }, 50000);
          console.log(p.day,p.productName,'(Your Product has expired) '," has expired on the ");
        }
       
@@ -232,24 +232,24 @@ const filteredProducts = products.filter((product) =>
       console.log(alertTime2,"timeUntilAlert1");
       
       
-      if (alertTime1 > currentTime) {
-        const timeUntilAlert1 = alertTime1 - currentTime;
-        console.log('Sending first alert');
+      // if (alertTime1 > currentTime) {
+      //   const timeUntilAlert1 = alertTime1 - currentTime;
+      //   console.log('Sending first alert');
        
-        // setTimeout(() => {
-          // sendSMS(p.day,p.productName,"(2 days before expiration)",' is expiring on the')  // Send the first alert
-          console.log('MESAGE SENT:   '+ p.day,p.productName,'(2 days before expiration) ',' is expiring on the ');
-        // }, 50000);
-      }
+      //   // setTimeout(() => {
+      //     // sendSMS(p.day,p.productName,"(2 days before expiration)",' is expiring on the')  // Send the first alert
+      //     console.log('MESAGE SENT:   '+ p.day,p.productName,'(2 days before expiration) ',' is expiring on the ');
+      //   // }, 50000);
+      // }
       
-      if (alertTime2 > currentTime) {
-        console.log('Sending second alert');
-        const timeUntilAlert2 = alertTime2 - currentTime;
-        // setTimeout(() => {
-          // sendSMS(p.day,p.productName,'(4days before expiration) ',' is expiring on the ')  // Send the second alert
-          console.log('MESAGE SENT:   '+ p.day,p.productName,'(4 days before expiration) ',' is expiring on the ');
-        // }, 50000);
-      }
+      // if (alertTime2 > currentTime) {
+      //   console.log('Sending second alert');
+      //   const timeUntilAlert2 = alertTime2 - currentTime;
+      //   // setTimeout(() => {
+      //     // sendSMS(p.day,p.productName,'(4days before expiration) ',' is expiring on the ')  // Send the second alert
+      //     console.log('MESAGE SENT:   '+ p.day,p.productName,'(4 days before expiration) ',' is expiring on the ');
+      //   // }, 50000);
+      // }
       
       // if (currentTime > alertTime1) {
       //   console.log('Sending second alert');

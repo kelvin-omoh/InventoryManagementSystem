@@ -14,6 +14,7 @@ import AppContext from '@/Context';
 const Sidebar = ({ children }) => {
   const { setAdmin,Admin,setName,name} = useContext(AppContext);
  const handleSignOut=()=>{
+  setAdmin(false)
   const auth = getAuth();
   toast.success("Signed Out Succesfully", {
     position: "top-right",
@@ -26,7 +27,7 @@ const Sidebar = ({ children }) => {
     progress: undefined,
     theme: "light",
     });
-    setAdmin(false)
+    // setAdmin(false)
   signOut(auth).then(() => {
     setAdmin(false)
     // Sign-out successful.

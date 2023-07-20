@@ -248,18 +248,18 @@ console.log(Math.floor(Math.random() * 10) + 1);
             <p className='text-white'>number of items in stock</p>
          
           </div>
-          <div className=' w-[15em]  items-center justify-center flex flex-col p-4  h-[10em] rounded-lg bg-[#9ddcfaaf] my-5'>
+          {/* <div className=' w-[15em]  items-center justify-center flex flex-col p-4  h-[10em] rounded-lg bg-[#9ddcfaaf] my-5'>
             <p className=' flex text-[1.3em] w-full justify-between  items-center h-full  '>
              
               <h3 className='text-[1.6em] text-white'>Expiration</h3>
               <h3 className=' text-white'>Today</h3>
             </p>
-            {/* TOTAL NUMBER OF STOCKS */}
+             TOTAL NUMBER OF STOCKS 
             <p className=' text-[#010D82] text-[1.9em]' > {products.length} </p>   
             
             <p className='text-white'>number of items expiring this week</p>
          
-          </div>
+          </div> */}
             </div> 
       
 

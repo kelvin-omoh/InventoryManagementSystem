@@ -8,7 +8,11 @@ import Sidebar from '../components/Sidebar';
 import withAuth from './withAuth';
 import Image from 'next/image';
 import Link from 'next/link';
-
+// import Img9 from '../public/item9.jpeg'
+import Img1 from '../public/g1.png'
+import Img2 from '../public/g2.png'
+import Img3 from '../public/g3.png'
+import Img4 from '../public/g4.png'
 const categories = () => {
   return (
     <div>
@@ -27,26 +31,26 @@ const categories = () => {
         <div className='p-4 grid md:grid-cols-2 grid-cols-1 gap-4'>
           <div className=' w-fit relativebg-[#51C9FF]  rounded-md'>
             <Link href="/categories/Drinks & Water">
-          <Image className='  ' src={"/../public/g1.png"} alt="" height={150} width={320} />
+          <Image className='  ' src={Img1} alt="" height={150} width={320} />
              <p className=' text-center w-full font-semibold text-[1.4em] py-4 '> Drinks and Water</p>
            </Link>
           </div>
           <div className=' w-fit relativebg-[#51C9FF]  rounded-md'>
           <Link href="/categories/Snacks & Sweet">
-          <Image className=' flex place-content-center ' src={"/../public/g2.png"} alt="" height={150} width={320} />
+          <Image className=' flex place-content-center ' src={Img2} alt="" height={150} width={320} />
           <p className=' text-center w-full font-semibold text-[1.4em] py-4 '>Snacks & Sweet</p>
           </Link>
           </div>
 
           <div className=' w-fit relativebg-[#51C9FF]  rounded-md'>
           <Link href="/categories/Stationaries">
-          <Image className=' flex place-content-center ' src={"/../public/g3.png"} alt="" height={150} width={320} />
+          <Image className=' flex place-content-center ' src={Img3} alt="" height={150} width={320} />
           <p className=' text-center w-full font-semibold text-[1.4em] py-4 '>Stationaries</p>
           </Link>
           </div>
           <div className=' w-fit relativebg-[#51C9FF]  rounded-md'>
           <Link href="/categories/Provisions">
-          <Image className=' flex place-content-center ' src={"/../public/g4.png"} alt="" height={150} width={320} />
+          <Image className=' flex place-content-center ' src={Img4} alt="" height={150} width={320} />
           <p className=' text-center w-full font-semibold text-[1.4em] py-4 '> Provisions </p>
           </Link>
           </div>

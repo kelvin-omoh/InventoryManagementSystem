@@ -120,8 +120,8 @@ const Employee = () => {
                 </div>
                  <button  className=' text-white bg-[#010D82] px-8 py-5  w-full rounded-lg'>SIGN IN</button>
                  {/* <p>Are you an Employee  ?     <Link className=' text-blue-500' href="/home">Click here</Link>  </p> */}
-                 <p>Not an employee?  <Link className=' text-blue-500' href="/signup">SignUp </Link>  </p>
-                 <p>Not an employee?  <Link className=' text-blue-500' href="/signin">SignIn </Link>  </p>
+                 <p>Not an employee?  <Link className=' text-blue-500' href="/signup">SignUp as Administrator </Link>  </p>
+                 <p>Not an employee?  <Link className=' text-blue-500' href="/signin">SignIn as Administrator  </Link>  </p>
               </form>
              
             </div>
