@@ -180,7 +180,7 @@ const handleGoogle=()=>{
             </div>
 
             <div className='  bg-[black]/5  py-4 rounded-md px-5 '>
-              <h1 className=' text-center font-bold'>Sign Ind{Admin}</h1>
+              <h1 className=' text-center font-bold'>Sign In</h1>
               <div className=' gap-6 flex justify-center items-center'>
               <button onClick={handleGoogle} className=' bg-gray-700/10 p-2 rounded-lg  flex gap-4 justify-center items-center'>
                   <FcGoogle size={40}/> Sign-In with Google
